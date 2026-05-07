@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: darkred;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#título{
+    font-size: 50pt;
+}
+
+main{
+    width: 50%;
+    margin: 0px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#Ranking{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgb(151, 149, 149);
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.Cavalos{
+    width: 200px;
+    background-color: rgb(190, 22, 22);
+    padding: 15px;
+    border: 3px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    
+    
+    
+}
+
+.Cavalos img{
+    width: 100%;
+}

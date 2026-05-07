@@ -1,0 +1,56 @@
+@keyframes top {
+    0%{
+        margin-bottom: 10px;
+
+    }
+    80%{
+        margin-bottom: 30%;
+    }
+    100%{
+        margin-bottom: 30%;
+    }
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../IMAGES/thumb-1920-749807.png);
+    background-size: cover;
+}
+
+header{
+    background-color: firebrick;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+    font-size: 30pt;
+}
+
+main{
+    width: 100%;
+    height: 80vh;
+    display:  flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#lore{
+    animation: top 10s 1;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    
+}
+
+button{
+    width: 500px;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
